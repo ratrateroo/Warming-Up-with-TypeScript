@@ -3,7 +3,11 @@
 // 	age: number;
 // } = {
 const person = {
-	name: 'Max',
-	age: 10,
+	name: 'Marga',
+	age: 15,
+	hobbies: ['Reading', 'Dancing'],
 };
+
+let activities: string[];
+activities = ['Reading', 'Dancing'];
 console.log(person);
