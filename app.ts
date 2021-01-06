@@ -29,6 +29,9 @@ const person = {
 
 let activities: string[];
 activities = ['Reading', 'Dancing'];
+
+let favoriteActivities: any[];
+favoriteActivities = ['Reading', 'Dancing'];
 console.log(person.name);
 
 for (const hobby of person.hobbies) {
