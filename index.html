@@ -7,6 +7,13 @@
 		<title>ProjectManager</title>
 		<link rel="stylesheet" href="app.css" />
 		<script type="module" src="dist/bundle.js"></script>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css"
+			type="text/css"
+		/>
+		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
 	</head>
 	<body>
 		<template id="project-input">
@@ -42,5 +49,12 @@
 			</section>
 		</template>
 		<div id="app"></div>
+		<div id="map">
+			<p>Please Enter and address!</p>
+			<form id="search-form">
+				<input type="text" id="address" />
+				<button type="submit">Search Address</button>
+			</form>
+		</div>
 	</body>
 </html>
